@@ -1,5 +1,8 @@
 # Graylog Docker Image
 
+
+>  add chinese timezone && hightlighting support 
+
 [![Docker Stars](https://img.shields.io/docker/stars/graylog/graylog.svg)][hub]
 [![Docker Pulls](https://img.shields.io/docker/pulls/graylog/graylog.svg)][hub]
 [![Image Size](https://images.microbadger.com/badges/image/graylog/graylog.svg)][microbadger]
