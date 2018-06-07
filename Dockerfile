@@ -20,6 +20,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 
 
 ENV GOSU_VERSION 1.10
+RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 RUN set -ex \
   && wget -nv -O /usr/local/bin/gosu "https://github.com/tianon/gosu/releases/download/$GOSU_VERSION/gosu-$(dpkg --print-architecture)" \
   && wget -nv -O /usr/local/bin/gosu.asc "https://github.com/tianon/gosu/releases/download/$GOSU_VERSION/gosu-$(dpkg --print-architecture).asc" \
